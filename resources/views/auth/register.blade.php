@@ -57,7 +57,7 @@
 					
 					<button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign up</button>
 				</form><!-- /form -->
-				<a href="{{ url('/password/forget') }}" class="forgot-password">Forgot password?</a> or <a href="{{ url('/username/forget') }}" class="forgot-password">Forgot username?</a>
+				<a href="{{ url('/password/reset') }}" class="forgot-password">Forgot password?</a> or <a href="{{ url('/username/reminder') }}" class="forgot-password">Forgot username?</a>
 			</div><!-- /card-container -->
 		  </div>
 		</div>
